@@ -50,7 +50,6 @@ React  →  REST API  →  Java / Spring Boot  →  MySQL
 | appointment | Terminet: lidh pacientin, dentistin dhe shërbimin, me fillim, fund dhe status |
 | visit | Shënimi i vizitës për një termin |
 
-Diagrama e plotë e databazës është te [Raporti Teknik 2](docs/Raporti-Teknik-2.md).
 
 ## Si ecën puna
 
@@ -61,11 +60,6 @@ Diagrama e plotë e databazës është te [Raporti Teknik 2](docs/Raporti-Teknik
 - [ ] Frontend me React
 - [ ] Autentikimi dhe rolet
 - [ ] Testimi dhe deployment
-
-## Raportet
-
-- [Raporti Teknik 1](docs/Raporti-Teknik-1.md) ([Word](docs/Raporti-Teknik-1.docx)): analiza, kërkesat dhe dizajni teknik
-- [Raporti Teknik 2](docs/Raporti-Teknik-2.md): databaza, backend-i dhe API
 
 ## Si ekzekutohet
 
@@ -88,9 +82,7 @@ Diagrama e plotë e databazës është te [Raporti Teknik 2](docs/Raporti-Teknik
    ```bash
    mvn spring-boot:run
    ```
-5. Hap Swagger UI për t'i provuar endpoint-et: http://localhost:8080/swagger-ui.html
 
-Lista e plotë e endpoint-eve dhe shembujt e gabimeve janë te [Raporti Teknik 2](docs/Raporti-Teknik-2.md).
 
 ## Shembull i shpejtë
 
